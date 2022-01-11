@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,wght@1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.sidebar{
+    background-color: gray;
+    /* width: 250px; */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 10vh;
+    opacity: 0.7;
+
+}
+.sidebar nav li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    font-size: 22px;
+    /* padding: 30px 0; */
+    padding: 15px 12px ;
+}
+.sidebar ul{
+    text-align: center;
+}
+.sidebar nav ul li a{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.sidebar nav ul li a:hover{
+    color: red;
+
+}
+.main::before{
+    content: "";
+    position: absolute;
+    background: url('../img (3).jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    height: 125%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+.main{
+    margin: 10px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* background-color: rgb(186, 247, 64); */
+    /* width: 80vw; */
+}
+.container{
+    /* display: flex; */
+}
+.my-intro{
+    margin: 10px 14px;
+}
+.devintro h1{
+    font-family: 'fira sans',sans-serif;
+    margin: 10px;
+    color: aliceblue;
+    font-family: cursive;
+}
+.devintro p{
+    margin: 10px;
+    color: azure;
+    font-family: monospace;
+    font-size: larger;
+}
+.box{
+    border-radius: 10px;
+    box-shadow: 15px 25px 50px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+padding: 0px 10px;
+}
+.skillcontainer{
+    border-radius: 10px;
+    box-shadow: 15px 25px 50px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+padding: 0px 10px;
+    padding: 10px;
+    color: aliceblue;
+    font-family: cursive;
+}
+.skill{
+    width: 300px;
+    height: 8px;
+    background-color: red;
+    border-radius: 5px;
+}
+.skill7{
+    width: 200px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.skill2{
+    width: 300px;
+    height: 8px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.skill3{
+    width: 250px;
+    height: 8px;
+    background-color: green;
+    border-radius: 5px;
+}
+.skill4{
+    width: 290px;
+    height: 8px;
+    background-color: brown;
+    border-radius: 5px;
+}
+.skill5{
+    width: 50px;
+    height: 8px;
+    background-color: rgb(9, 240, 228);
+    border-radius: 5px;
+}
+.skill6{
+    width: 50px;
+    height: 8px;
+    background-color: rgb(248, 183, 4);
+    border-radius: 5px;
+}
+.gell img{
+    align-items: center;
+    width: 60px;
+    margin: 0px 4px;
+    border-radius: 5px;
+}
+.gell h1{
+    text-align: center;
+}
+.cret img{
+    margin: 10px 8px;
+    height: 300px;
+    width: 160px;
+
+    /* transition: transform 1s; */
+    /* transform: scale(1); */
+}
+/* .cret img:hover{
+    width: 310px;
+    transform: scale(1.2);
+    
+} */
+
+
+.cen{
+    text-align: center;
+    /* width: 140px; */
+    /* display: flex; */
+}
+.cen img{
+    width: 140px;
+    border-radius: 10px;
+    box-shadow: 15px 25px 50px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+padding: 0px 10px;
+}
